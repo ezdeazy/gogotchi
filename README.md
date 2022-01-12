@@ -1,1 +1,1 @@
-Hello World - introducing go-gotchi
+Hello World - introducing gogotchi
