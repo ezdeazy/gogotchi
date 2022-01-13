@@ -23,7 +23,7 @@ func echo(r chan string) {
 }
 
 func main() {
-	r := make(chan string, 0)
+	r := make(chan string, 0) //0 by default, but this means there has to be a receiver ( <- ) for each send
 	go echo(r)
 
 	reader := bufio.NewReader(os.Stdin)
